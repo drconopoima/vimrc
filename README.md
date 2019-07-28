@@ -16,13 +16,13 @@ I would, of course, recommend using the awesome version.
 ### Install for your own user only
 The awesome version includes a lot of great plugins, configurations and color schemes that make Vim a lot better. To install it simply do following from your terminal:
 
-	git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
+	git clone --depth=1 https://github.com/drconopoima/vimrc.git ~/.vim_runtime
 	sh ~/.vim_runtime/install_awesome_vimrc.sh
 	
 ### Install for multiple users
 To install for multiple users, the repository needs to be cloned to a location accessible for all the intended users.
 
-	git clone --depth=1 https://github.com/amix/vimrc.git /opt/vim_runtime
+	git clone --depth=1 https://github.com/drconopoima/vimrc.git /opt/vim_runtime
 	sh ~/.vim_runtime/install_awesome_parameterized.sh /opt/vim_runtime user0 user1 user2
 	# to install for all users with home directories
 	sh ~/.vim_runtime/install_awesome_parameterized.sh /opt/vim_runtime --all
@@ -44,7 +44,7 @@ The basic version is just one file and no plugins. Just copy [basic.vim](https:/
 
 The basic version is useful to install on remote servers where you don't need many plugins, and you don't do many edits.
 
-	git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
+	git clone --depth=1 https://github.com/drconopoima/vimrc.git ~/.vim_runtime
 	sh ~/.vim_runtime/install_basic_vimrc.sh
 
 
@@ -335,3 +335,12 @@ Just do following:
 Maintaining this Vim configuration isn't my day job. Daily I am the founder of [Doist](https://doist.com/). You could come and help us build the workplace of the future while living a balanced life (anywhere in the world 🌍🌎🌏).
 
 PS: Using Vim isn't a requirement 😄
+
+
+## Credits
+
+This package is forked from [amix/vimrc](https://github.com/amix/vimrc) project. 
+
+I have so far added:
+
+* Activate line numbers by default to the basic configuration
